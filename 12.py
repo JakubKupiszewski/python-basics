@@ -7,4 +7,6 @@ name_set2 = {"Mariusz", "Wojtek"}
 name_set.update(name_set2)
 #można również extend
 
-print(name_set)
+for name in name_set:
+    print(name)
+
